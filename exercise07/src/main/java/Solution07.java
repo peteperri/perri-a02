@@ -14,7 +14,7 @@ in main:
  */
 import java.util.Scanner;
 
-public class Solution07 {
+public class Solution07{
 
     static final double CONVERSION_FACTOR = 0.09290304;
 
@@ -26,7 +26,7 @@ public class Solution07 {
         return areaFeet * CONVERSION_FACTOR;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
 
@@ -40,7 +40,6 @@ public class Solution07 {
 
         System.out.printf("You entered dimensions of %f feet by %f feet.", length, width);
         System.out.printf("%nThe area is %n%f square feet%n%f square meters", areaFeet, areaMeters);
-
 
     }
 }
