@@ -21,7 +21,7 @@ public class Solution09 {
     static void paintCalc(double area){
         double temp = (area/CONVERSION_RATE);
         double buckets = Math.ceil(temp);
-        System.out.printf("You will need to purchase %f gallons of paint to cover %f square feet.", buckets, area);
+        System.out.printf("You will need to purchase %.0f gallons of paint to cover %.0f square feet.", buckets, area);
     }
     static double areaCalc(double length, double width){
         return length * width;
