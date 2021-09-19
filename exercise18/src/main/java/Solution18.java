@@ -8,7 +8,7 @@ Write a function that returns a string (C or F) to prompt the user to figure out
 Write two functions to convert F to C, and C to F
 in main:
     if the prompt function returns C, ask the user for the temperature in Celsius and call the function to convert Celsius. Print the result.
-    else, ask the user for the temperature in Fahrenheit and call the function to convert Fahrenheit. Print the result. 
+    else, ask the user for the temperature in Fahrenheit and call the function to convert Fahrenheit. Print the result.
  */
 import java.util.Scanner;
 public class Solution18 {
