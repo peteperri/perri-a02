@@ -14,9 +14,11 @@ import java.util.Scanner;
 public class Solution14 {
 
     static double calcTax(double orderAmt){
+
         return orderAmt * 0.055;
     }
     static boolean checkState(String state){
+
         return state.equals("WI");
     }
     public static void main(String[] args) {
