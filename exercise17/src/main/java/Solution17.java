@@ -1,3 +1,16 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Peter Perri
+ */
+/*
+Pseudocode:
+write a function to calculate the BAC
+write a function to find if the BAC is legal or not
+prompt the user for the necessary information to find BAC
+call the above functions to find the legality
+use an if statement to decide whether or not to output "legal" or "illegal" to drive
+
+ */
 import java.util.Scanner;
 
 public class Solution17 {
